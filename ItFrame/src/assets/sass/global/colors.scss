@@ -1,0 +1,7 @@
+.main-gradient {
+  background: #46cbe2;
+  background: -moz-linear-gradient(left, #46cbe2 0%, #4ab5e0 10%, #4ea0df 20%, #528dde 31%, #557cdd 42%, #5969db 54%, #5c58da 67%, #5f48d9 78%, #613dd8 89%, #652ad7 100%)!important;
+  background: -webkit-linear-gradient(left, #46cbe2 0%,#4ab5e0 10%,#4ea0df 20%,#528dde 31%,#557cdd 42%,#5969db 54%,#5c58da 67%,#5f48d9 78%,#613dd8 89%,#652ad7 100%)!important;
+  background: linear-gradient(to right, #46cbe2 0%,#4ab5e0 10%,#4ea0df 20%,#528dde 31%,#557cdd 42%,#5969db 54%,#5c58da 67%,#5f48d9 78%,#613dd8 89%,#652ad7 100%)!important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46cbe2', endColorstr='#652ad7',GradientType=1 )!important;
+}

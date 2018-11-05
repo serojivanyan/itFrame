@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="40px" viewBox="0 0 144 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>gp</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#257CB0" offset="0%"></stop>
+            <stop stop-color="#3C8FB3" offset="21%"></stop>
+            <stop stop-color="#73BDBA" offset="74%"></stop>
+            <stop stop-color="#89CFBD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="49.9796665%" x2="100%" y2="49.9796665%" id="linearGradient-2">
+            <stop stop-color="#52C1AD" offset="0%"></stop>
+            <stop stop-color="#DEE89A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.9839898%" y1="0%" x2="49.9839898%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#EC413D" offset="0%"></stop>
+            <stop stop-color="#D74352" offset="19%"></stop>
+            <stop stop-color="#A04888" offset="74%"></stop>
+            <stop stop-color="#8A4A9D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.9721758%" y1="0%" x2="49.9721758%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#F58879" offset="0%"></stop>
+            <stop stop-color="#FBB276" offset="62%"></stop>
+            <stop stop-color="#FEC874" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Start-screen" transform="translate(-1460.000000, -2959.000000)">
+            <g id="Group-4" transform="translate(0.000000, 2162.000000)">
+                <g id="footer" transform="translate(0.000000, 772.000000)">
+                    <g id="social-copy" transform="translate(1264.500000, 20.819494)">
+                        <g id="gp" transform="translate(195.666229, 0.813316)">
+                            <g id="Group-3" transform="translate(0.000000, 4.000000)" fill-rule="nonzero">
+                                <polygon id="Shape" fill="url(#linearGradient-1)" points="0 0.143051845 0 19.5424715 0 38.9418911 19.5663135 19.5424715"></polygon>
+                                <polygon id="Shape" fill="url(#linearGradient-2)" points="24.8194951 14.3290265 16.9198543 9.76726208 0 0 0 0.143051845 19.5663135 19.5424715"></polygon>
+                                <polygon id="Shape" fill="url(#linearGradient-3)" points="0 38.9418911 0 39.0769957 16.9198543 29.3097336 24.8194951 24.7479692 19.5663135 19.5424715"></polygon>
+                                <polygon id="Shape" fill="url(#linearGradient-4)" points="24.8194951 14.3290265 19.5663135 19.5424715 24.8194951 24.7479692 33.847656 19.5424715"></polygon>
+                            </g>
+                            <text id="GOOGLE-PLAY" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="31" fill="#6C7781">
+                                <tspan x="47.063305" y="30">GOOGLE PLAY</tspan>
+                            </text>
+                            <text id="Download-on-the" font-family=".AppleSystemUIFont" font-size="11" font-weight="normal" line-spacing="31" fill="#6C7781">
+                                <tspan x="47.063305" y="11.18">Download on the</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

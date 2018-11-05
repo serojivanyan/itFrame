@@ -1,0 +1,19 @@
+.g-footer {
+  border-top: 1px solid #ccc;
+  .g-download-app-apple {
+    width: 136px;
+    height: 40px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/as.svg);
+  }
+  .g-download-app-googleplay {
+    width: 144px;
+    height: 40px;
+    display: inline-block;
+    background-size: contain;;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/gp.svg);
+  }
+}

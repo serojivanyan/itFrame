@@ -1,0 +1,13 @@
+.swiper-container {
+  height: 100%;
+  .swiper-slide {
+    .g-slider-wrapper {
+      height: 678px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

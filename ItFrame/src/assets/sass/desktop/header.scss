@@ -1,0 +1,82 @@
+
+.g-brand {
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/images/logo.jpg);
+}
+
+.g-full-logo {
+  flex-direction: column;
+  .g-brand-giver {
+    width: 151px;
+    height: 36px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/logo.jpg);
+  }
+  span {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+.g-language-en {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/images/united-kingdom-flag-32x32.png);
+  .g-language-select {
+
+  }
+  .g-arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;  transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+  }
+}
+.g-language-hy {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/images/armenia-flag-32x32.png);
+  .g-language-select {
+
+  }
+  .g-arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;  transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+  }
+}
+
+.toolbar {
+  background-color: #fff;
+  padding: 0px 0;
+  .toolbar__content {
+    .toolbar__title {
+      height: 100%;
+      align-items: center;
+      > a {
+        display: flex;
+        align-items: center;
+      }
+    }
+    .toolbar__items {
+      align-items: center;
+    }
+  }
+}
+

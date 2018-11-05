@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="41px" viewBox="0 0 136 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>as</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Start-screen" transform="translate(-1265.000000, -2959.000000)">
+            <g id="Group-4" transform="translate(0.000000, 2162.000000)">
+                <g id="footer" transform="translate(0.000000, 772.000000)">
+                    <g id="social-copy" transform="translate(1264.500000, 20.819494)">
+                        <g id="as" transform="translate(0.451120, 0.813316)">
+                            <g id="Page-1" transform="translate(0.563305, 3.186684)" fill="#231F20">
+                                <path d="M22.9393065,6.80526944 C21.5333384,8.60989783 19.1121681,10.0079717 16.7723087,9.9353445 C16.3452291,7.60890535 17.4425316,5.21457555 18.7711359,3.60019888 C20.2347322,1.82241097 22.7427394,0.459071846 24.8860316,0.310659711 C25.2475889,2.74288197 24.2505435,5.12063383 22.9393065,6.80526944 Z M33.3621802,13.7320111 C26.6094281,17.4320519 27.7059411,27.0780512 34.5297416,29.6563173 C33.5903244,31.7388238 33.1403514,32.667189 31.9317398,34.5073416 C30.2431571,37.076924 27.8646158,40.277258 24.9184771,40.3033091 C22.2983714,40.3277813 21.6265696,38.5989378 18.0717832,38.6186735 C14.5177863,38.6384091 13.7749362,40.3340967 11.1556199,40.3104139 C8.20948114,40.282784 5.95487979,37.3942734 4.2678759,34.824691 C-0.452103625,27.6401227 -0.945495029,19.2090504 1.96511954,14.728267 C4.03420573,11.5421427 7.29532555,9.67751789 10.3646148,9.67751789 C13.4883745,9.67751789 15.452467,11.3905728 18.0346802,11.3905728 C20.5403191,11.3905728 22.0670695,9.67514961 25.6786945,9.67514961 C28.4085305,9.67514961 31.3009883,11.1608498 33.3621802,13.7320111 Z" id="Fill-4"></path>
+                            </g>
+                            <text id="APP-STORE" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="31" fill="#6C7781">
+                                <tspan x="48.063305" y="30">APP STORE</tspan>
+                            </text>
+                            <text id="Download-on-the" font-family=".AppleSystemUIFont" font-size="11" font-weight="normal" line-spacing="31" fill="#6C7781">
+                                <tspan x="48.063305" y="11.18">Download on the</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

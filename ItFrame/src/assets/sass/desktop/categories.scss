@@ -1,0 +1,116 @@
+//Categories Aside Menu
+.g-categories-aside-menu {
+  padding: 20px 30px;
+  min-width: 300px;
+  width: 300px;
+  background-color: #e7ebeb;
+  height: 100vh;
+  h1 {
+    font-size: 30px;
+    line-height: 38px;
+    color: #5A65DB;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  .expansion-panel {
+    box-shadow: none;
+    .expansion-panel__container {
+      background-color: transparent;
+      border: none;
+      &.expansion-panel__container--active {
+        .g-color-icon {
+          -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+        }
+      }
+    }
+    .card {
+      background-color: transparent;
+    }
+  }
+}
+
+//Categories list
+
+.g-categories-list {
+  width: 100%;
+  padding: 20px 30px;
+  background-color: #f5f9f9;
+  .input-group {
+    padding: 0;
+  }
+  .g-search {
+    position: relative;
+    .g-search-input {
+      border: 1px solid #2c3e50;
+      padding: 10px 20px;
+      border-radius: 100px;
+      width: 100%;
+      outline: none;
+      //&:focus + label {
+      //  opacity: 0;
+      //}
+    }
+    label {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      transition: all ease  0.5s;
+    }
+  }
+  .g-card {
+    .card {
+    background-color: transparent;
+      box-shadow: none;
+    }
+    .g-item-list {
+      position: relative;
+      .g-filter {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 12px;
+        font-style: normal;
+        min-width: 70px;
+        height: 30px;
+      }
+    }
+    .g-header {
+      .d-flex > * {
+        flex: initial!important;
+      }
+      .headline {
+        text-transform: uppercase;
+        font-size: 20px!important;
+      }
+    }
+    .g-card-img {
+      height:200px;
+      width: 100%;
+      object-fit: cover;
+    }
+    .card__title {
+      padding: 0 16px 16px;
+      .list__tile__title {
+        color: #5A65DB;
+        font-weight: 600;
+      }
+    }
+    .list__tile__sub-title {
+      line-height: 14px;
+      color: #919191;
+      .material-icons {
+        font-size: 16px;
+        color: #919191;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+

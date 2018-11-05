@@ -1,0 +1,113 @@
+.btn.g-btn-default {
+  background-color: transparent !important;
+  border: 1px solid #6C7781 !important;
+  border-radius: 100px;
+  color: #6C7781;
+  min-width: 150px;
+  height: 50px;
+  text-transform: capitalize;
+  box-shadow: none;
+  font-weight: 600;
+}
+
+.btn.g-btn-main {
+  box-shadow: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 100px;
+  min-width: 150px;
+  height: 50px;
+  background: #5482dd;
+  background: -moz-linear-gradient(left, #5482dd 0%, #596adb 10%, #5c57da 23%, #6140d9 39%, #6239d8 84%, #652ad7 100%)!important;
+  background: -webkit-linear-gradient(left, #5482dd 0%,#596adb 10%,#5c57da 23%,#6140d9 39%,#6239d8 84%,#652ad7 100%)!important;
+  background: linear-gradient(to right, #5482dd 0%,#596adb 10%,#5c57da 23%,#6140d9 39%,#6239d8 84%,#652ad7 100%)!important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5482dd', endColorstr='#652ad7',GradientType=1)!important;
+}
+
+.btn.g-btn-main-light {
+  box-shadow: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+  border-radius: 100px;
+  min-width: 150px;
+  height: 50px;
+  background: #46cbe2;
+  background: -moz-linear-gradient(left, #46cbe2 0%, #4ab5e0 10%, #4ea0df 20%, #528dde 31%, #557cdd 42%, #5969db 54%, #5c58da 67%, #5f48d9 78%, #613dd8 89%, #652ad7 100%)!important;
+  background: -webkit-linear-gradient(left, #46cbe2 0%,#4ab5e0 10%,#4ea0df 20%,#528dde 31%,#557cdd 42%,#5969db 54%,#5c58da 67%,#5f48d9 78%,#613dd8 89%,#652ad7 100%)!important;
+  background: linear-gradient(to right, #46cbe2 0%,#4ab5e0 10%,#4ea0df 20%,#528dde 31%,#557cdd 42%,#5969db 54%,#5c58da 67%,#5f48d9 78%,#613dd8 89%,#652ad7 100%)!important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46cbe2', endColorstr='#652ad7',GradientType=1 )!important;
+}
+
+
+.g-up-letter {
+  text-transform: uppercase!important;
+}
+.g-social-icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.g-social-icon.g-fb {
+  background-image: url(./assets/images/fb-icon.svg);
+}
+.g-social-icon.g-instagram {
+  background-image: url(./assets/images/instagram-icon.svg);
+}
+
+.g-title {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.g-subtitle {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #333;
+}
+.g-white {
+  color: #ffffff!important;
+}
+.g-bold {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70px;
+  color: white;
+}
+
+.expansion-panel__header {
+  padding: 12px 10px;
+}
+
+
+//icons
+.g-color-icon {
+  width: 8px;
+  height: 11px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transition: all ease .3s;
+  -o-transition: all ease .3s;
+  transition: all ease .3s;
+  cursor: pointer;
+  background-image: url(./assets/images/Right.png);
+}
+.g-grey-icon {
+  @extend .g-color-icon;
+  width: 12px;
+  height: 8px;
+  background-image: url(./assets/images/angle-down.png);
+}
+.g-color-down-icon {
+  @extend .g-color-icon;
+  width: 15px;
+  height: 11px;
+  background-image: url(./assets/images/Color-down.png);
+}
