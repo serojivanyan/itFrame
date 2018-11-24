@@ -1,28 +1,18 @@
 <template>
     <div class="g-about" >
         <v-container grid-list-xl id="services">
-            <v-layout row justify-center align-center class="Divlayout DivlayoutBack">
+            <v-layout row justify-center align-center class="Divlayout DivlayoutBack divLayRed leftRadius">
                 <v-flex lg7 right>
                     <h2 class="g-about-title mb-5" style ="text-align:center">{{ $t('web_dev_and_des_h') }}</h2>
                     <p style ="text-align:center">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid dignissimos eligendi
-                        esse eum fugit ipsa magni minima, non obcaecati, praesentium quia ratione rem ullam vero? Animi
-                        beatae dicta molestias nisi odio unde voluptatem. Asperiores autem beatae dicta distinctio est
-                        eveniet
-                        fuga fugiat harum minima nulla omnis porro quibusdam ratione, repellendus soluta, vitae
-                        voluptates? Asperiores
-                        aut consequuntur cumque ducimus earum enim esse ex fugiat perferendis quae quaerat, quo,
-                        repellendus
-                        repudiandae ut veritatis? Aspernatur dignissimos dolorum minima modi obcaecati placeat
-                        repudiandae!
-                        Adipisci cum cumque doloremque fuga omnis ratione similique voluptate. Autem!
+                        {{ $t('web_dev_and_des_p') }}
                     </p>
                 </v-flex>
                 <v-flex lg3>
                     <i class="g-about-icon"></i>
                 </v-flex>
             </v-layout>
-            <v-layout row justify-center  align-center class="Divlayout1 DivlayoutBack" >
+            <v-layout row justify-center  align-center class="Divlayout1 DivlayoutBack divLayRed rightRadius" >
                 <v-flex lg3 >
                     <i class="g-about-icon2"></i>
                 </v-flex>
@@ -33,7 +23,7 @@
                     </p>
                 </v-flex>
             </v-layout>
-            <v-layout row justify-center align-center class="Divlayout DivlayoutBack">
+            <v-layout row justify-center align-center class="Divlayout DivlayoutBack divLayRed leftRadius">
                 <v-flex lg7>
                     <h2 class="g-about-title mb-5" style ="text-align:center">{{ $t('mob_app_h') }}</h2>
                     <p style ="text-align:center">
@@ -44,7 +34,7 @@
                     <i class="g-about-icon3"></i>
                 </v-flex>
             </v-layout>
-            <v-layout row justify-center  align-center class="Divlayout1 DivlayoutBack">
+            <v-layout row justify-center  align-center class="Divlayout1 DivlayoutBack divLayRed rightRadius">
                 <v-flex lg3>
                     <i class="g-about-icon4"></i>
                 </v-flex>
@@ -97,6 +87,26 @@ export default {
 <style lang="scss" scoped>
     @import "../../assets/sass/desktop/mainPage.scss";
 
+     .divLayRed{
+   background: white  !important;
+    color: #16788D;
+    border-radius:6px;
+        border: 2px double  #16788D;
+        margin-top: 2px !important;
+
+    }
+    .leftRadius {
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 120px;
+    border-right: none;
+}
+    .rightRadius {
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border-left: none;
+}
+  
+
     img {
         height: 100% !important;
     }
@@ -108,6 +118,10 @@ export default {
         background-color: white;
 
     }
+    .container.grid-list-xl {
+    padding: 24px;
+    padding-bottom: 70px;
+}
     @media screen and (max-width: 550px) {
         .Divlayout {
             flex-direction: column-reverse;

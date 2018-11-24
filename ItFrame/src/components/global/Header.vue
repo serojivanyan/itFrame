@@ -17,10 +17,10 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#home" style="color: rgb(72,204,253);"> {{ $t('home') }}</a></li>
-                        <li><a href="#services" style="color: rgb(1,146,211);" > {{ $t('services') }}</a></li>
-                        <li><a href="#about" style="color: rgb(252,130,45);" > {{ $t('about_us') }}</a></li>
-                        <li><a href="#contact" style="color: rgb(220,37,0);"> {{ $t('contact') }}</a></li>
+                        <li><a href="#home" style="color: rgb(12, 207, 204)"> {{ $t('home') }}</a></li>
+                        <li><a href="#services" style="color: rgb(255, 39, 82)" > {{ $t('services') }}</a></li>
+                        <li><a href="#about" style="color: rgb(140, 130, 130)" > {{ $t('about_us') }}</a></li>
+                        <li><a href="#contact" style="color: rgb(32, 36, 43)"> {{ $t('contact') }}</a></li>
                         <li>
                             <v-menu class="g-language-select" right style="margin-top:12px;z-index: 20000;">
                                 <v-btn

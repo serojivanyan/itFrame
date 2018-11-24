@@ -93,16 +93,16 @@ export default {
     z-index: 500;
   }
   .transparentDiv1{
-    background-color: rgba(4, 151, 206, 0.7);
+    background-color: rgba(0, 0, 0, 0.56);
   }
   .transparentDiv2{
-    background-color:  rgba(34, 74, 93, 0.7);
+    background-color:  rgba(0, 0, 0, 0.56);
   }
   .transparentDiv3{
-    background-color:  rgba(218, 94, 24, 0.7);
+    background-color:  rgba(0, 0, 0, 0.56);
   }
   .transparentDiv4{
-    background-color:  rgba(72, 17, 16, 0.7);
+    background-color:  rgba(0, 0, 0, 0.56);
   }
   .g-slider-wrapper{
     position: relative;
